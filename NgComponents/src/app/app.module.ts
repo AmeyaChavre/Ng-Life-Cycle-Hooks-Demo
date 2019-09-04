@@ -10,7 +10,6 @@ import { CockpitComponent } from './cockpit/cockpit.component';
   declarations: [
     AppComponent,
     CockpitComponent,
-    ShoppingCartComponent
   ],
   imports: [
     BrowserModule,
