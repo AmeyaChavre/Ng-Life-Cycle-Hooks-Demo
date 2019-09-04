@@ -9,7 +9,7 @@ import { CockpitComponent } from './cockpit/cockpit.component';
 @NgModule({
   declarations: [
     AppComponent,
-    CockpitComponent,
+    CockpitComponent
   ],
   imports: [
     BrowserModule,
