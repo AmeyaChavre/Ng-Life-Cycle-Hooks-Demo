@@ -21,6 +21,6 @@ export class AppComponent {
     type: 'blueprint',
     name: this.newServerName,
     content: this.newServerContent
-    //});
+    });
   }
 }
