@@ -31,6 +31,6 @@ export class CockpitComponent implements OnInit {
 	//{
 	//serverName: nameInput.value, 
 	//serverContent: this.newServerContent
-	});
+	//});
   }
 }
