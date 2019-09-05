@@ -6,9 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./cockpit.component.css']
 })
 export class CockpitComponent implements OnInit {
-	
-	
-	
+  serverCreated;
+  blueprintCreated;
   newServerName = '';
   newServerContent = '';
 
