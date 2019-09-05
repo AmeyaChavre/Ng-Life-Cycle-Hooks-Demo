@@ -22,7 +22,7 @@ export class CockpitComponent implements OnInit {
      // type: 'server',
       //name: this.newServerName,
       //content: this.newServerContent
-    });
+    //});
   }
 
   onAddBlueprint() {
