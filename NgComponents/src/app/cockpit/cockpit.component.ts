@@ -20,7 +20,7 @@ export class CockpitComponent implements OnInit {
     console.log(nameInput.value);
 	this.serverCreated.emit(
 		{
-		serverName: this.newServerName, 
+		serverName: nameInput.value, 
 		serverContent: this.newServerContent
 	});
   }
