@@ -12,6 +12,10 @@
   [srvElement]="serverElement">
   <!--Custom property binding - "element"-->
   <!--Using Alias srvElement instead of element-->
+  <p>
+  <strong *ngIf="element.type === 'server'" style="color: red">{{ element.content }}</strong>
+  <em *ngIf="element.type === 'blueprint'">{{ element.content }}</em>
+  </p>
   </app-server-element>
     </div>
   </div>
