@@ -10,7 +10,7 @@ export class CockpitComponent implements OnInit {
   @Output('bpCreated') blueprintCreated = new EventEmitter<{serverName: string, serverContent: string}>();
   // newServerName = '';
   // newServerContent = '';
-  serverContentInput = '';
+  serverContentInput;
 
   constructor() { }
 
