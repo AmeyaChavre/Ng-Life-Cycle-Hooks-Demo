@@ -11,7 +11,7 @@ export class AppComponent {
   onServerAdded() {
     this.serverElements.push({
     type: 'server',
-      //name: this.newServerName,
+    name: this.newServerName,
       //content: this.newServerContent
     //});
   }
