@@ -22,7 +22,7 @@ export class CockpitComponent implements OnInit {
 	this.serverCreated.emit(
 	{
 	serverName: nameInput.value, 
-	serverContent: this.serverContentInput.nativeElement.value;
+	serverContent: this.serverContentInput.nativeElement.value
 	});
   }
 
@@ -30,7 +30,7 @@ export class CockpitComponent implements OnInit {
 	this.blueprintCreated.emit(
 	{
 	serverName: nameInput.value, 
-	serverContent: this.newServerContent
+  serverContent: this.serverContentInput.nativeElement.value
 	});
   }
 }
