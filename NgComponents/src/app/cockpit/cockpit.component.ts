@@ -20,7 +20,7 @@ export class CockpitComponent implements OnInit {
   onAddServer() {
     //this.serverElements.push({
      // type: 'server',
-      name: this.newServerName,
+      //name: this.newServerName,
       content: this.newServerContent
     });
   }
