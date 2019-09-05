@@ -27,10 +27,10 @@ export class CockpitComponent implements OnInit {
   }
 
   onAddBlueprint(nameInput: HTMLInputElement) {
-	//this.blueprintCreated.emit(
-	//{
-	//serverName: nameInput.value, 
-	//serverContent: this.newServerContent
-	//});
+	this.blueprintCreated.emit(
+	{
+	serverName: nameInput.value, 
+	serverContent: this.newServerContent
+	});
   }
 }
