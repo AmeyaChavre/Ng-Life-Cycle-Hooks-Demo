@@ -9,7 +9,7 @@ export class CockpitComponent implements OnInit {
 	
 	
 	
-	  newServerName = '';
+  newServerName = '';
   newServerContent = '';
 
   constructor() { }
