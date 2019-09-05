@@ -14,7 +14,7 @@
   <!--Using Alias srvElement instead of element-->
   <p>
   <strong *ngIf="serverElement.type === 'server'" style="color: red">{{ serverElement.content }}</strong>
-  <em *ngIf="serverElement.type === 'blueprint'">{{ element.content }}</em>
+  <em *ngIf="serverElement.type === 'blueprint'">{{ serverElement.content }}</em>
   </p>
   </app-server-element>
     </div>
