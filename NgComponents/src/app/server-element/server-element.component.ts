@@ -20,7 +20,9 @@ OnInit,
 OnChanges, 
 DoCheck, 
 AfterContentInit,
-AfterContentChecked
+AfterContentChecked,
+AfterViewInit,
+AfterViewChecked
  {
   @Input('srvElement') element: {type:string ,name:string, content:string}; // defining an object element 
   @Input() name: string;
