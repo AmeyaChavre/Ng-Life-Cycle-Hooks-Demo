@@ -45,4 +45,8 @@ AfterContentChecked
   ngAfterContentInit(){
   	console.log('ngAfterContentInit() called !');
   }
+
+  ngAfterContentChecked(){
+
+  }
 }
