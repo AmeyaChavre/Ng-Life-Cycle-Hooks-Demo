@@ -11,11 +11,11 @@ export class ServerElementComponent implements OnInit {
 
   // using @Input decorator to expose the property to parent compnent in this case app component
   constructor() { 
-  	console.log("contructor() Called!!");
+  	console.log("contructor() called !!");
   }
 
   ngOnInit() {
-  	console.log("ngOnInit() called");
+  	console.log("ngOnInit() called !!");
   }
 
 }
