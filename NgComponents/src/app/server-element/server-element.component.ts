@@ -47,6 +47,6 @@ AfterContentChecked
   }
 
   ngAfterContentChecked(){
-
+  	console.log('ngAfterContentChecked() called !');
   }
 }
