@@ -1,4 +1,13 @@
-import { Component, OnInit, Input, ViewEncapsulation, OnChanges, SimpleChanges, DoCheck, AfterContentInit } from '@angular/core';
+import { Component, 
+	 OnInit, 
+	 Input, 
+	 ViewEncapsulation,
+	 OnChanges, 
+	 SimpleChanges, 
+	 DoCheck, 
+	 AfterContentInit,
+	 AfterContentChecked
+	  } from '@angular/core';
 
 @Component({
   selector: 'app-server-element',
