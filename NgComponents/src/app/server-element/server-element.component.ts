@@ -24,7 +24,8 @@ DoCheck,
 AfterContentInit,
 AfterContentChecked,
 AfterViewInit,
-AfterViewChecked
+AfterViewChecked,
+OnDestroy
  {
   @Input('srvElement') element: {type:string ,name:string, content:string}; // defining an object element 
   @Input() name: string;
