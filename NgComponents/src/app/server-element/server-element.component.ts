@@ -8,6 +8,7 @@ import { Component, OnInit, Input, ViewEncapsulation, OnChanges, SimpleChanges }
 })
 export class ServerElementComponent implements OnInit, OnChanges {
   @Input('srvElement') element: {type:string ,name:string, content:string}; // defining an object element 
+  @Input() name;
   // Life Cycle Hooks Demonstration 
   // using @Input decorator to expose the property to parent compnent in this case app component
   constructor() { 
