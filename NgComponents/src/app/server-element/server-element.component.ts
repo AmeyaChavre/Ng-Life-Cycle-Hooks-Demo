@@ -6,7 +6,7 @@ import { Component, OnInit, Input, ViewEncapsulation, OnChanges } from '@angular
   styleUrls: ['./server-element.component.css'],
   encapsulation: ViewEncapsulation.Emulated // Emulated is Default , Other values are None and Native
 })
-export class ServerElementComponent implements OnInit,OnChanges {
+export class ServerElementComponent implements OnInit, OnChanges {
   @Input('srvElement') element: {type:string ,name:string, content:string}; // defining an object element 
 
   // using @Input decorator to expose the property to parent compnent in this case app component
