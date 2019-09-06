@@ -6,7 +6,7 @@ import { Component, OnInit, Input, ViewEncapsulation, OnChanges, SimpleChanges }
   styleUrls: ['./server-element.component.css'],
   encapsulation: ViewEncapsulation.Emulated // Emulated is Default , Other values are None and Native
 })
-export class ServerElementComponent implements OnInit, OnChanges {
+export class ServerElementComponent implements OnInit, OnChanges, DoCheck {
   @Input('srvElement') element: {type:string ,name:string, content:string}; // defining an object element 
   @Input() name: string;
   // Life Cycle Hooks Demonstration 
