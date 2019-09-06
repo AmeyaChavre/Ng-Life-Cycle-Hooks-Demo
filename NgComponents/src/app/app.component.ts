@@ -23,4 +23,14 @@ export class AppComponent {
     content: blueprintData.serverContent
     });
   }
+
+  onChangeFirst(){
+    
+  }
+
+
+
+
+
+
 }
