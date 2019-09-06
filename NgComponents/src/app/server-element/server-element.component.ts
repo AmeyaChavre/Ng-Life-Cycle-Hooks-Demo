@@ -27,4 +27,7 @@ export class ServerElementComponent implements OnInit, OnChanges, DoCheck, After
   	console.log('ngDoCheck() called !');
   }
 
+  ngAfterContentInit(){
+  	
+  }
 }
