@@ -8,7 +8,8 @@ import { Component,
 	 AfterContentInit,
 	 AfterContentChecked,
 	 AfterViewInit,
-	 AfterViewChecked
+	 AfterViewChecked,
+	 OnDestroy
 	  } from '@angular/core';
 
 @Component({
