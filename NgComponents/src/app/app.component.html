@@ -10,7 +10,10 @@
       <button class="btn btn-primary" (click)=onChangeFirst()>Change First Element</button>
   <app-server-element 
   *ngFor="let serverElement of serverElements"
-  [srvElement]="serverElement">
+  [srvElement]="serverElement"
+  [name]="serverElement.name"
+  >
+
   <!--Custom property binding - "element"-->
   <!--Using Alias srvElement instead of element-->
   <p>
