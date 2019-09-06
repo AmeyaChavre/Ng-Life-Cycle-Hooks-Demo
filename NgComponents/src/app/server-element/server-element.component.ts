@@ -55,7 +55,7 @@ AfterViewChecked
   }
 
   ngAfterViewInit(){
-  	console.log();
+  	console.log('ngAfterViewInit() called !');
   }
 
   ngAfterViewChecked(){
