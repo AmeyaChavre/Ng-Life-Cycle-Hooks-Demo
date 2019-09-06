@@ -6,7 +6,9 @@ import { Component,
 	 SimpleChanges, 
 	 DoCheck, 
 	 AfterContentInit,
-	 AfterContentChecked
+	 AfterContentChecked,
+	 AfterViewInit,
+	 AfterViewChecked
 	  } from '@angular/core';
 
 @Component({
