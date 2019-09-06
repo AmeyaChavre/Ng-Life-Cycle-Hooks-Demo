@@ -55,6 +55,10 @@ AfterViewChecked
   }
 
   ngAfterViewInit(){
-  	
+
+  }
+
+  ngAfterViewChecked(){
+
   }
 }
