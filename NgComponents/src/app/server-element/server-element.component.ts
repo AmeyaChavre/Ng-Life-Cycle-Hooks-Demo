@@ -10,7 +10,8 @@ import { Component,
 	 AfterViewInit,
 	 AfterViewChecked,
 	 OnDestroy,
-	 ViewChild
+	 ViewChild,
+	 ElementRef
 	  } from '@angular/core';
 
 @Component({
