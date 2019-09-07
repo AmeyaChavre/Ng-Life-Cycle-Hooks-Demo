@@ -45,7 +45,7 @@ OnDestroy
 
   ngOnInit() {
   	console.log('ngOnInit() called !');
-  	console.log('Text Content : ' + this.header.nativeElement.textContent);
+  	console.log('Text Content : ' + this.header.nativeElement.textContent); // the text won't appear
   }
 
   ngDoCheck(){
@@ -62,7 +62,7 @@ OnDestroy
 
   ngAfterViewInit(){
   	console.log('ngAfterViewInit() called !');
-  	console.log('Text Content : ' + this.header.nativeElement.textContent);
+  	console.log('Text Content : ' + this.header.nativeElement.textContent); // the text will appear now after View Initializes
   }
 
   ngAfterViewChecked(){
