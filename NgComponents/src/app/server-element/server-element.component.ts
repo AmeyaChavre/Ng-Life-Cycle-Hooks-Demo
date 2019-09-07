@@ -64,7 +64,7 @@ OnDestroy
   	console.log('ngAfterViewInit() called !');
   	console.log('Text Content : ' + this.header.nativeElement.textContent); // the text will appear now after View Initializes
   }
-
+  // check this in console in dev tools
   ngAfterViewChecked(){
   	console.log('ngAfterViewChecked() called !');
   }
