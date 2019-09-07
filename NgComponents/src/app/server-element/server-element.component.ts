@@ -9,7 +9,8 @@ import { Component,
 	 AfterContentChecked,
 	 AfterViewInit,
 	 AfterViewChecked,
-	 OnDestroy
+	 OnDestroy,
+	 ViewChild
 	  } from '@angular/core';
 
 @Component({
