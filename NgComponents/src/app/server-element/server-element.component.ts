@@ -62,6 +62,7 @@ OnDestroy
 
   ngAfterViewInit(){
   	console.log('ngAfterViewInit() called !');
+  	console.log('Text Content : ' + this.header.nativeElement.textContent);
   }
 
   ngAfterViewChecked(){
