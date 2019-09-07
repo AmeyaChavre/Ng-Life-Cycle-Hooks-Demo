@@ -45,6 +45,7 @@ OnDestroy
 
   ngOnInit() {
   	console.log('ngOnInit() called !');
+  	console.log(this.header.nativeElement.textContent);
   }
 
   ngDoCheck(){
