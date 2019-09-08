@@ -57,6 +57,7 @@ OnDestroy
 
   ngAfterContentInit(){
   	console.log('ngAfterContentInit() called !');
+  	console.log('Text Content of Paragraph: ' + this.paragraph.nativeElement.textContent);
   }
 
   ngAfterContentChecked(){
