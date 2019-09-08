@@ -34,7 +34,7 @@ OnDestroy
   @Input('srvElement') element: {type:string ,name:string, content:string}; // defining an object element 
   @Input() name: string;
   @ViewChild('heading',{static:true}) header: ElementRef;
-  @ContentChild();
+  @ContentChild('contentParagraph',{static:true});
   // Life Cycle Hooks Demonstration 
   // using @Input decorator to expose the property to parent compnent in this case app component
   constructor() { 
