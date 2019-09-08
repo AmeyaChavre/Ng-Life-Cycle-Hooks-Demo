@@ -11,7 +11,8 @@ import { Component,
 	 AfterViewChecked,
 	 OnDestroy,
 	 ViewChild,
-	 ElementRef
+	 ElementRef,
+	 ContentChild
 	  } from '@angular/core';
 
 @Component({
