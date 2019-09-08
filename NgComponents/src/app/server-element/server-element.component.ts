@@ -48,6 +48,7 @@ OnDestroy
   ngOnInit() {
   	console.log('ngOnInit() called !');
   	console.log('Text Content : ' + this.header.nativeElement.textContent); // the text won't appear
+  	
   }
 
   ngDoCheck(){
